@@ -20,10 +20,17 @@ public class PlayerController : MonoBehaviour
     float attackTime = 1;
     float attackTimeCounter;
     bool isAtacking = false;
+    DistanceJoint2D joint;
+    Vector3 grapPos;
+    RaycastHit2D hit;
+    public float distance = 10;
+    public LayerMask mask;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        joint = GetComponent<DistanceJoint2D>();
+        joint.enabled = false;
     }
 
     // Update is called once per frame
@@ -79,5 +86,23 @@ public class PlayerController : MonoBehaviour
 
         if (move < 0) { transform.eulerAngles = new Vector3(0, 0, 0); }
         else { transform.eulerAngles = new Vector3(0, 180, 0); }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            grapPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            grapPos.z = 0;
+
+            hit = Physics2D.Raycast(transform.position, grapPos - transform.position, distance, mask);
+            if(hit.collider != null && hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
+            {
+                joint.enabled = true;
+                joint.connectedBody = hit.collider.gameObject.GetComponent<Rigidbody2D>();
+                joint.distance = Vector2.Distance(transform.position, hit.point);
+            }
+        }
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            joint.enabled = false;
+        }
     }
 }

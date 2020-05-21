@@ -154,6 +154,10 @@ MonoBehaviour:
   jumpForce: 10
   jumpTime: 0.35
   Sword: {fileID: 8121721334247720374}
+  distance: 10
+  mask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &8121721334247720374
 GameObject:
   m_ObjectHideFlags: 0
