@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public Camera cam;
     public float speed;
     Rigidbody2D rb;
     bool isGrounded;
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
         {
             isJumping = false;
         }
-        if (Input.GetKey(KeyCode.X))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             isAtacking = true;
             while(attackTimeCounter > 0)
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
         if (move < 0) { transform.eulerAngles = new Vector3(0, 0, 0); }
         else { transform.eulerAngles = new Vector3(0, 180, 0); }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             grapPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             grapPos.z = 0;
@@ -100,7 +100,7 @@ public class PlayerController : MonoBehaviour
                 joint.distance = Vector2.Distance(transform.position, hit.point);
             }
         }
-        if (Input.GetKeyUp(KeyCode.Mouse0))
+        if (Input.GetKeyUp(KeyCode.Mouse1))
         {
             joint.enabled = false;
         }
