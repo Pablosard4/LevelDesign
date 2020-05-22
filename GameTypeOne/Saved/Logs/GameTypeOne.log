@@ -667,3 +667,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.22-11.21.22:662][ 61]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/DEV/WhiteBoxingv2_BuiltData.WhiteBoxingv2_BuiltData
 [2020.05.22-11.21.42:903][231]LogSlate: Took 0.044605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2020.05.22-11.21.54:350][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.05.22-11.22.22:083][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
