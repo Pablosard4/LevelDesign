@@ -7,7 +7,7 @@ public class BetaPlayer : MonoBehaviour
 
     public float playerSpeed = 4f;
 
-    }
+    
 
     void FixedUpdate()
     {
