@@ -668,3 +668,693 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.22-11.21.42:903][231]LogSlate: Took 0.044605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2020.05.22-11.21.54:350][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
 [2020.05.22-11.22.22:083][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.22-11.23.30:315][396]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.22-11.23.30:347][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.22-11.23.30:359][396]PIE: New page: PIE session: WhiteBoxingv2 (22 may. 2020 15:23:30)
+[2020.05.22-11.23.30:367][396]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.22-11.23.30:372][396]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.22-11.23.30:372][396]LogPlayLevel: Creating play world package: /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2
+[2020.05.22-11.23.30:484][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111280s)
+[2020.05.22-11.23.30:485][396]LogAIModule: Creating AISystem for world WhiteBoxingv2
+[2020.05.22-11.23.30:485][396]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2020.05.22-11.23.30:485][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2 to /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2.WhiteBoxingv2 (0.112917s)
+[2020.05.22-11.23.30:510][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.22-11.23.30:511][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.22-11.23.30:511][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.22-11.23.30:511][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.22-11.23.30:511][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.22-11.23.30:511][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.22-11.23.30:511][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.22-11.23.30:511][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.22-11.23.30:511][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.22-11.23.30:512][396]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.22-11.23.30:512][396]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.22-11.23.30:519][396]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-11.23.30:519][396]LogAudioMixer: Display: Name: SONY TV (Sonido Intel(R) para pantallas)
+[2020.05.22-11.23.30:519][396]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-11.23.30:519][396]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-11.23.30:519][396]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-11.23.30:519][396]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-11.23.30:519][396]LogAudioMixer: Display: Channel Order:
+[2020.05.22-11.23.30:520][396]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-11.23.30:520][396]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-11.23.30:526][396]LogAudioMixer: Display: Using Audio Device SONY TV (Sonido Intel(R) para pantallas)
+[2020.05.22-11.23.30:528][396]LogInit: FAudioDevice initialized.
+[2020.05.22-11.23.30:664][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-11.23.30:676][396]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.05.22-11.23.30:702][396]LogWorld: Bringing World /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2.WhiteBoxingv2 up for play (max tick rate 60) at 2020.05.22-13.23.30
+[2020.05.22-11.23.30:756][396]LogWorld: Bringing up level for play took: 0.066771
+[2020.05.22-11.23.30:757][396]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.05.22-11.23.30:801][396]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2020.05.22-11.23.30:833][396]PIE: Play in editor start time for /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2 0,194
+[2020.05.22-11.23.30:937][397]LogRenderer: Reallocating scene render targets to support 1140x576 Format 10 NumSamples 1 (Frame:1).
+[2020.05.22-11.23.30:945][397]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.070589 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2020.05.22-11.23.51:020][579]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.23.51:020][579]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.23.51:020][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-11.23.51:020][579]LogWorld: BeginTearingDown for /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2
+[2020.05.22-11.23.51:051][579]LogSlate: Window 'GameTypeOne Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.22-11.23.51:060][579]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.23.51:061][579]LogWorld: UWorld::CleanupWorld for WhiteBoxingv2, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-11.23.51:063][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.22-11.23.51:076][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.22-11.23.51:080][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.22-11.23.51:113][579]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.23.51:125][579]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.05.22-11.23.51:179][580]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.05.22-11.24.05:451][401]LogEditorViewport: Clicking on Actor (LMB): LaserButton_C (LaserButton)
+[2020.05.22-11.24.06:506][461]Cmd: DELETE
+[2020.05.22-11.24.06:506][461]Cmd: ACTOR DELETE
+[2020.05.22-11.24.06:573][461]LogEditorActor: Deleted Actor: LaserButton_C
+[2020.05.22-11.24.06:612][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.05.22-11.24.06:613][461]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2020.05.22-11.24.24:601][474]Cmd: DELETE
+[2020.05.22-11.24.24:601][474]Cmd: ACTOR DELETE
+[2020.05.22-11.24.24:647][474]LogEditorActor: Deleted Actor: Table_C
+[2020.05.22-11.24.24:684][474]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.05.22-11.24.24:685][474]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2020.05.22-11.24.38:903][297]LogEditorViewport: Clicking on Actor (LMB): LaserOff_C (LaserOff4)
+[2020.05.22-11.24.42:817][507]Cmd: DELETE
+[2020.05.22-11.24.42:817][507]Cmd: ACTOR DELETE
+[2020.05.22-11.24.42:868][507]LogEditorActor: Deleted Actor: LaserOff_C
+[2020.05.22-11.24.42:904][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.05.22-11.24.42:907][507]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2020.05.22-11.24.44:159][575]LogEditorViewport: Clicking on Actor (LMB): LaserOff_C (LaserOff4)
+[2020.05.22-11.24.52:547][ 61]Cmd: TRANSACTION UNDO
+[2020.05.22-11.24.52:547][ 61]LogEditorTransaction: Undo Scale Actors
+[2020.05.22-11.25.06:418][843]LogEditorViewport: Clicking on Actor (LMB): Table_C (Table52)
+[2020.05.22-11.25.12:828][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.05.22-11.25.13:211][182]LogSavePackage: Moving '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Saved/WhiteBoxingv291CE5CDC477CE0E35981DC84BD453611.tmp' to '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Content/Maps/DEV/WhiteBoxingv2.umap'
+[2020.05.22-11.25.13:261][182]LogFileHelpers: Saving map 'WhiteBoxingv2' took 0.466
+[2020.05.22-11.25.13:294][182]AssetCheck: New page: Asset Save: WhiteBoxingv2
+[2020.05.22-11.25.13:294][182]LogContentValidation: Display: Validating World /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2
+[2020.05.22-11.25.22:064][680]EditorErrors: New page: Actor attachment
+[2020.05.22-11.25.34:684][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.05.22-11.25.34:768][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.05.22-11.25.35:202][387]LogSavePackage: Moving '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Saved/WhiteBoxingv28B5F0EEB4540DCD19F18ADA3052F6908.tmp' to '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Content/Maps/DEV/WhiteBoxingv2.umap'
+[2020.05.22-11.25.35:248][387]LogFileHelpers: Saving map 'WhiteBoxingv2' took 0.511
+[2020.05.22-11.25.35:262][387]AssetCheck: New page: Asset Save: WhiteBoxingv2
+[2020.05.22-11.25.35:262][387]LogContentValidation: Display: Validating World /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2
+[2020.05.22-11.25.36:726][462]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.22-11.25.36:747][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.22-11.25.36:747][462]PIE: New page: PIE session: WhiteBoxingv2 (22 may. 2020 15:25:36)
+[2020.05.22-11.25.36:748][462]LogPlayLevel: Creating play world package: /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2
+[2020.05.22-11.25.36:855][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106832s)
+[2020.05.22-11.25.36:856][462]LogAIModule: Creating AISystem for world WhiteBoxingv2
+[2020.05.22-11.25.36:856][462]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2020.05.22-11.25.36:856][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2 to /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2.WhiteBoxingv2 (0.108146s)
+[2020.05.22-11.25.36:881][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.22-11.25.36:882][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.22-11.25.36:882][462]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.22-11.25.36:882][462]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: Name: SONY TV (Sonido Intel(R) para pantallas)
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: Channel Order:
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-11.25.36:890][462]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-11.25.36:898][462]LogAudioMixer: Display: Using Audio Device SONY TV (Sonido Intel(R) para pantallas)
+[2020.05.22-11.25.36:899][462]LogInit: FAudioDevice initialized.
+[2020.05.22-11.25.36:971][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-11.25.36:971][462]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.05.22-11.25.36:987][462]LogWorld: Bringing World /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2.WhiteBoxingv2 up for play (max tick rate 60) at 2020.05.22-13.25.36
+[2020.05.22-11.25.36:992][462]LogWorld: Bringing up level for play took: 0.019209
+[2020.05.22-11.25.36:992][462]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.05.22-11.25.36:999][462]PIE: Play in editor start time for /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2 0,36
+[2020.05.22-11.25.37:121][463]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061789 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2020.05.22-11.25.49:069][162]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.25.49:069][162]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.25.49:070][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-11.25.49:070][162]LogWorld: BeginTearingDown for /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2
+[2020.05.22-11.25.49:100][162]LogSlate: Window 'GameTypeOne Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.22-11.25.49:113][162]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.25.49:114][162]LogWorld: UWorld::CleanupWorld for WhiteBoxingv2, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-11.25.49:116][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.22-11.25.49:126][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.22-11.25.49:131][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.22-11.25.49:175][162]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.25.49:185][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.05.22-11.25.49:230][163]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.05.22-11.25.50:430][229]LogEditorViewport: Clicking on Actor (LMB): LaserOff_C (LaserOff4)
+[2020.05.22-11.25.59:505][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.05.22-11.25.59:973][738]LogSavePackage: Moving '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Saved/WhiteBoxingv22367D1044F591BF6C30753A6B09F2671.tmp' to '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Content/Maps/DEV/WhiteBoxingv2.umap'
+[2020.05.22-11.26.00:021][738]LogFileHelpers: Saving map 'WhiteBoxingv2' took 0.550
+[2020.05.22-11.26.00:037][738]AssetCheck: New page: Asset Save: WhiteBoxingv2
+[2020.05.22-11.26.00:037][738]LogContentValidation: Display: Validating World /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2
+[2020.05.22-11.26.04:860][993]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.22-11.26.04:887][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.22-11.26.04:887][993]PIE: New page: PIE session: WhiteBoxingv2 (22 may. 2020 15:26:04)
+[2020.05.22-11.26.04:888][993]LogPlayLevel: Creating play world package: /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2
+[2020.05.22-11.26.05:023][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136044s)
+[2020.05.22-11.26.05:024][993]LogAIModule: Creating AISystem for world WhiteBoxingv2
+[2020.05.22-11.26.05:024][993]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2020.05.22-11.26.05:025][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2 to /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2.WhiteBoxingv2 (0.137658s)
+[2020.05.22-11.26.05:059][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.22-11.26.05:062][993]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.22-11.26.05:062][993]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.22-11.26.05:062][993]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: Name: SONY TV (Sonido Intel(R) para pantallas)
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: Channel Order:
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-11.26.05:070][993]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-11.26.05:076][993]LogAudioMixer: Display: Using Audio Device SONY TV (Sonido Intel(R) para pantallas)
+[2020.05.22-11.26.05:077][993]LogInit: FAudioDevice initialized.
+[2020.05.22-11.26.05:138][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-11.26.05:138][993]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.05.22-11.26.05:160][993]LogWorld: Bringing World /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2.WhiteBoxingv2 up for play (max tick rate 60) at 2020.05.22-13.26.05
+[2020.05.22-11.26.05:162][993]LogWorld: Bringing up level for play took: 0.022620
+[2020.05.22-11.26.05:162][993]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.05.22-11.26.05:170][993]PIE: Play in editor start time for /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2 0,532
+[2020.05.22-11.26.05:298][994]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.070589 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2020.05.22-11.28.56:899][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.28.56:899][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.28.56:900][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-11.28.56:900][814]LogWorld: BeginTearingDown for /Game/Maps/DEV/UEDPIE_0_WhiteBoxingv2
+[2020.05.22-11.28.56:952][814]LogSlate: Window 'GameTypeOne Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.22-11.28.56:967][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.28.56:968][814]LogWorld: UWorld::CleanupWorld for WhiteBoxingv2, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-11.28.56:973][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.22-11.28.56:986][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.22-11.28.56:994][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.22-11.28.57:055][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-11.28.57:072][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.05.22-11.28.57:105][815]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.05.22-11.29.00:164][993]LogEditorViewport: Clicking on Actor (LMB): Table_C (Table52)
+[2020.05.22-11.29.10:665][564]LogEditorViewport: Clicking on Actor (LMB): LaserButton_C (LaserButton3)
+[2020.05.22-11.29.32:047][804]LogEditorViewport: Clicking on Actor (LMB): Camara_C (Camara4)
+[2020.05.22-11.30.48:033][207]LogEditorViewport: Clicking on Actor (LMB): Npc_C (Npc9)
+[2020.05.22-11.30.57:848][595]LogEditorViewport: Clicking on Actor (LMB): Key_C (Key4)
+[2020.05.22-11.31.12:044][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.22-11.31.17:494][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.05.22-11.31.17:573][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.05.22-11.31.18:010][686]LogSavePackage: Moving '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Saved/WhiteBoxingv261B851C54DDAF7D8AF089C9DE34EAA28.tmp' to '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Content/Maps/DEV/WhiteBoxingv2.umap'
+[2020.05.22-11.31.18:058][686]LogFileHelpers: Saving map 'WhiteBoxingv2' took 0.519
+[2020.05.22-11.31.18:073][686]AssetCheck: New page: Asset Save: WhiteBoxingv2
+[2020.05.22-11.31.18:074][686]LogContentValidation: Display: Validating World /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2
+[2020.05.22-11.31.55:090][890]LogEditorViewport: Clicking on Actor (LMB): LaserOff_C (LaserOff)
+[2020.05.22-11.32.05:350][462]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.22-11.32.33:124][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.05.22-11.32.33:231][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.05.22-11.32.33:738][ 72]LogSavePackage: Moving '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Saved/WhiteBoxingv2030F47B0438A82C4DB1C33BF915654F2.tmp' to '../../../../../Uni/TECNOCAMPUS/3 trim/Diseño de niveles/LevelDesign/GameTypeOne/Content/Maps/DEV/WhiteBoxingv2.umap'
+[2020.05.22-11.32.33:792][ 72]LogFileHelpers: Saving map 'WhiteBoxingv2' took 0.598
+[2020.05.22-11.32.33:811][ 72]AssetCheck: New page: Asset Save: WhiteBoxingv2
+[2020.05.22-11.32.33:811][ 72]LogContentValidation: Display: Validating World /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2
+[2020.05.22-11.33.10:759][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.05.22-11.33.12:135][265]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.22-11.33.35:657][486]LogEditorViewport: Clicking Background
+[2020.05.22-11.33.41:657][782]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_828' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.41:657][782]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_828.BodySetup_0 when we are unable to.
+[2020.05.22-11.33.41:658][782]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_829' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.41:658][782]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_829.BodySetup_0 when we are unable to.
+[2020.05.22-11.33.41:660][782]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_830' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.41:660][782]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_830.BodySetup_0 when we are unable to.
+[2020.05.22-11.33.41:661][782]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_831' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.41:661][782]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_831.BodySetup_0 when we are unable to.
+[2020.05.22-11.33.52:151][367]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_828' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.52:152][367]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_828.BodySetup_0 when we are unable to.
+[2020.05.22-11.33.52:153][367]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_829' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.52:153][367]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_829.BodySetup_0 when we are unable to.
+[2020.05.22-11.33.52:154][367]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_830' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.52:154][367]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_830.BodySetup_0 when we are unable to.
+[2020.05.22-11.33.52:154][367]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_831' invalid (25667 verts, 0 indices).
+[2020.05.22-11.33.52:154][367]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/DEV/WhiteBoxingv2.WhiteBoxingv2:PersistentLevel.ModelComponent_831.BodySetup_0 when we are unable to.
+[2020.05.22-11.34.04:973][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.22-11.34.07:628][244]LogRenderer: Reallocating scene render targets to support 1148x576 Format 10 NumSamples 1 (Frame:38261).
+[2020.05.22-11.34.07:675][245]LogRenderer: Reallocating scene render targets to support 1152x576 Format 10 NumSamples 1 (Frame:38263).
+[2020.05.22-11.34.07:716][246]LogRenderer: Reallocating scene render targets to support 1156x576 Format 10 NumSamples 1 (Frame:38265).
+[2020.05.22-11.34.07:756][247]LogRenderer: Reallocating scene render targets to support 1160x576 Format 10 NumSamples 1 (Frame:38267).
+[2020.05.22-11.34.08:060][263]LogRenderer: Reallocating scene render targets to support 1164x576 Format 10 NumSamples 1 (Frame:38271).
+[2020.05.22-11.34.08:102][264]LogRenderer: Reallocating scene render targets to support 1172x576 Format 10 NumSamples 1 (Frame:38273).
+[2020.05.22-11.34.08:145][265]LogRenderer: Reallocating scene render targets to support 1176x576 Format 10 NumSamples 1 (Frame:38275).
+[2020.05.22-11.34.09:750][359]LogRenderer: Reallocating scene render targets to support 1192x576 Format 10 NumSamples 1 (Frame:38356).
+[2020.05.22-11.34.09:791][360]LogRenderer: Reallocating scene render targets to support 1204x576 Format 10 NumSamples 1 (Frame:38358).
+[2020.05.22-11.34.09:835][361]LogRenderer: Reallocating scene render targets to support 1212x576 Format 10 NumSamples 1 (Frame:38360).
+[2020.05.22-11.34.09:876][362]LogRenderer: Reallocating scene render targets to support 1232x576 Format 10 NumSamples 1 (Frame:38362).
+[2020.05.22-11.34.09:925][363]LogRenderer: Reallocating scene render targets to support 1272x576 Format 10 NumSamples 1 (Frame:38364).
+[2020.05.22-11.34.09:967][364]LogRenderer: Reallocating scene render targets to support 1312x576 Format 10 NumSamples 1 (Frame:38366).
+[2020.05.22-11.34.10:014][365]LogRenderer: Reallocating scene render targets to support 1324x576 Format 10 NumSamples 1 (Frame:38368).
+[2020.05.22-11.34.10:057][366]LogRenderer: Reallocating scene render targets to support 1348x576 Format 10 NumSamples 1 (Frame:38370).
+[2020.05.22-11.34.10:105][367]LogRenderer: Reallocating scene render targets to support 1388x576 Format 10 NumSamples 1 (Frame:38372).
+[2020.05.22-11.34.10:151][368]LogRenderer: Reallocating scene render targets to support 1416x576 Format 10 NumSamples 1 (Frame:38374).
+[2020.05.22-11.34.10:535][389]LogRenderer: Reallocating scene render targets to support 1420x576 Format 10 NumSamples 1 (Frame:38378).
+[2020.05.22-11.34.10:573][390]LogRenderer: Reallocating scene render targets to support 1428x576 Format 10 NumSamples 1 (Frame:38380).
+[2020.05.22-11.34.13:483][550]LogRenderer: Reallocating scene render targets to support 1428x584 Format 10 NumSamples 1 (Frame:38534).
+[2020.05.22-11.34.13:536][551]LogRenderer: Reallocating scene render targets to support 1428x592 Format 10 NumSamples 1 (Frame:38536).
+[2020.05.22-11.34.13:581][552]LogRenderer: Reallocating scene render targets to support 1428x608 Format 10 NumSamples 1 (Frame:38538).
+[2020.05.22-11.34.13:624][553]LogRenderer: Reallocating scene render targets to support 1428x636 Format 10 NumSamples 1 (Frame:38540).
+[2020.05.22-11.34.13:665][554]LogRenderer: Reallocating scene render targets to support 1428x652 Format 10 NumSamples 1 (Frame:38542).
+[2020.05.22-11.34.13:855][563]LogRenderer: Reallocating scene render targets to support 1428x656 Format 10 NumSamples 1 (Frame:38546).
+[2020.05.22-11.34.13:899][564]LogRenderer: Reallocating scene render targets to support 1428x664 Format 10 NumSamples 1 (Frame:38548).
+[2020.05.22-11.34.13:940][565]LogRenderer: Reallocating scene render targets to support 1428x668 Format 10 NumSamples 1 (Frame:38550).
+[2020.05.22-11.34.13:983][566]LogRenderer: Reallocating scene render targets to support 1428x672 Format 10 NumSamples 1 (Frame:38552).
+[2020.05.22-11.34.14:024][567]LogRenderer: Reallocating scene render targets to support 1428x676 Format 10 NumSamples 1 (Frame:38554).
+[2020.05.22-11.34.14:072][568]LogRenderer: Reallocating scene render targets to support 1428x680 Format 10 NumSamples 1 (Frame:38556).
+[2020.05.22-11.34.38:412][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.05.22-11.34.43:344][807]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{1946d7f3-fd97-4b27-ab98-7543b402dfa5}.
+[2020.05.22-11.34.43:563][807]LogRenderer: Reallocating scene render targets to support 1428x720 Format 10 NumSamples 1 (Frame:39701).
+[2020.05.22-11.34.43:645][807]LogTemp: Resetting audio stream to device id 
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: Channel Order:
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-11.34.43:660][807]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-11.35.03:252][808]LogTemp: Resetting audio stream to device id 
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: Channel Order:
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-11.35.03:263][808]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-11.35.05:201][809]LogTemp: Resetting audio stream to device id 
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: Channel Order:
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-11.35.05:510][809]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-11.38.04:746][673]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2f39ac6b-50bb-42a1-a289-3fe2c436ff7a}.
+[2020.05.22-11.38.04:746][673]LogTemp: Resetting audio stream to device id 
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: Name: SONY TV (Sonido Intel(R) para pantallas)
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: Channel Order:
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-11.38.05:445][673]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-12.11.03:477][538]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.05.22-12.11.05:282][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.05.22-12.11.05:412][640]LogSlate: Window 'GameTypeOne - Unreal Editor' being destroyed
+[2020.05.22-12.11.05:736][641]Cmd: QUIT_EDITOR
+[2020.05.22-12.11.05:736][641]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.22-12.11.05:767][641]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.22-12.11.05:767][641]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.22-12.11.06:695][641]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.22-12.11.06:709][641]LogExit: Preparing to exit.
+[2020.05.22-12.11.07:779][641]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:779][641]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:780][641]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:796][641]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.05.22-12.11.07:828][641]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-12.11.07:830][641]LogExit: Editor shut down
+[2020.05.22-12.11.07:831][641]LogExit: Transaction tracking system shut down
+[2020.05.22-12.11.08:053][641]LogExit: Object subsystem successfully closed.
+[2020.05.22-12.11.08:074][641]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.05.22-12.11.08:092][641]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (702)
+[2020.05.22-12.11.08:092][641]LogModuleManager: Shutting down and abandoning module Voice (700)
+[2020.05.22-12.11.08:092][641]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (698)
+[2020.05.22-12.11.08:092][641]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (696)
+[2020.05.22-12.11.08:092][641]LogModuleManager: Shutting down and abandoning module AddContentDialog (694)
+[2020.05.22-12.11.08:092][641]LogModuleManager: Shutting down and abandoning module WidgetCarousel (693)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module EditorWidgets (690)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module CollectionManager (688)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module SceneOutliner (686)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module StatsViewer (684)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (682)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module FoliageEdit (680)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module LandscapeEditor (678)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module MeshPaintMode (676)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (674)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module ActorPickerMode (672)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module GeometryMode (670)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module TextureAlignMode (668)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module BspMode (666)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (664)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (662)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module AutomationWorker (660)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module SteamVREditor (658)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module OculusMR (656)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (654)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (652)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (650)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module PlacementMode (649)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module MaterialEditor (648)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (644)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (642)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (640)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (638)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (636)
+[2020.05.22-12.11.08:093][641]LogModuleManager: Shutting down and abandoning module WebMMedia (634)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (632)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (630)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module SequenceRecorder (629)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (626)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (624)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (622)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (620)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (618)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (616)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (614)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (612)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (610)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (608)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module CharacterAI (606)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module SmartSnapping (604)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module SessionServices (602)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module MeshPaint (600)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module ViewportSnapping (598)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module ViewportInteraction (596)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module ClothPainter (594)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (593)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module LogVisualizer (590)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module IntroTutorials (588)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (587)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (584)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (582)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (580)
+[2020.05.22-12.11.08:094][641]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (579)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (576)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (574)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (572)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (570)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (568)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (566)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module InputBindingEditor (564)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module MergeActors (562)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (560)
+[2020.05.22-12.11.08:785][641]LogModuleManager: Shutting down and abandoning module LocalizationService (559)
+[2020.05.22-12.11.08:786][641]LogModuleManager: Shutting down and abandoning module HardwareTargeting (556)
+[2020.05.22-12.11.08:786][641]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (554)
+[2020.05.22-12.11.08:786][641]LogModuleManager: Shutting down and abandoning module UndoHistory (552)
+[2020.05.22-12.11.08:786][641]LogModuleManager: Shutting down and abandoning module XmlParser (550)
+[2020.05.22-12.11.08:786][641]LogModuleManager: Shutting down and abandoning module Blutility (548)
+[2020.05.22-12.11.08:786][641]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (546)
+[2020.05.22-12.11.08:786][641]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (545)
+[2020.05.22-12.11.08:787][641]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (542)
+[2020.05.22-12.11.08:787][641]LogModuleManager: Shutting down and abandoning module SettingsEditor (540)
+[2020.05.22-12.11.08:787][641]LogModuleManager: Shutting down and abandoning module ProjectLauncher (538)
+[2020.05.22-12.11.08:787][641]LogModuleManager: Shutting down and abandoning module SessionFrontend (536)
+[2020.05.22-12.11.08:787][641]LogModuleManager: Shutting down and abandoning module ProfilerClient (534)
+[2020.05.22-12.11.08:787][641]LogModuleManager: Shutting down and abandoning module DeviceManager (532)
+[2020.05.22-12.11.08:787][641]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (531)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module AutomationController (528)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module AutomationWindow (526)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module Layers (524)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (522)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module DetailCustomizations (520)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module PackagesDialog (518)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (516)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module Persona (514)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (513)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module AnimGraph (511)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module Kismet (508)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module KismetWidgets (507)
+[2020.05.22-12.11.08:821][641]LogModuleManager: Shutting down and abandoning module GraphEditor (504)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module StructViewer (502)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module ClassViewer (500)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module Toolbox (498)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module ModuleUI (496)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module OutputLog (494)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module GammaUI (492)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module Documentation (490)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module ToolMenus (488)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module LiveCoding (486)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module LevelSequence (484)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (482)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module MovieScene (480)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (478)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module LauncherPlatform (476)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module AnalyticsET (474)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module PortalServices (472)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module PortalRpc (470)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module MessagingRpc (468)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (466)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module AIModule (464)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module GameplayDebugger (463)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module AITestSuite (461)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module NavigationSystem (459)
+[2020.05.22-12.11.08:822][641]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (456)
+[2020.05.22-12.11.08:826][641]LogModuleManager: Shutting down and abandoning module ProfilerService (454)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module TaskGraph (452)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module ScreenshotTools (450)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (448)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (446)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module OculusEditor (444)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module OculusInput (442)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (440)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module EditableMesh (438)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (436)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module CableComponent (434)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AudioCapture (432)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (431)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AssetTags (428)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (426)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (424)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AppleImageUtils (422)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AndroidPermission (420)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (418)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (416)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module MediaCompositing (414)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module ImgMedia (412)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (410)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (408)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (406)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (404)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (402)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module BackChannel (400)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (398)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AutomationUtils (396)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AlembicImporter (394)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module AlembicLibrary (393)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module GeometryCache (392)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (391)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (386)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (384)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (382)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module PluginBrowser (380)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (378)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (376)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module CurveEditorTools (374)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (372)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module CryptoKeys (370)
+[2020.05.22-12.11.08:843][641]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (368)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (366)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module UObjectPlugin (364)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (362)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (360)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (358)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module GitSourceControl (356)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module SourceControl (355)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (352)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (350)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (348)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (346)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (344)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (342)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (340)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module Paper2DEditor (338)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.05.22-12.11.08:844][641]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.05.22-12.11.08:946][641]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.05.22-12.11.09:046][641]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.05.22-12.11.09:046][641]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.05.22-12.11.09:046][641]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.05.22-12.11.09:047][641]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.05.22-12.11.09:047][641]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.05.22-12.11.09:047][641]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.05.22-12.11.09:047][641]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.05.22-12.11.09:048][641]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.05.22-12.11.09:049][641]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.05.22-12.11.09:049][641]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.05.22-12.11.09:049][641]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.05.22-12.11.09:049][641]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.05.22-12.11.09:049][641]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.05.22-12.11.09:051][641]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.05.22-12.11.09:052][641]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.05.22-12.11.09:054][641]LogDerivedDataCache: Shutdown
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.05.22-12.11.09:054][641]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.05.22-12.11.09:057][641]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.05.22-12.11.09:058][641]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.05.22-12.11.09:058][641]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.05.22-12.11.09:058][641]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.05.22-12.11.09:058][641]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.05.22-12.11.09:058][641]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.05.22-12.11.09:059][641]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.05.22-12.11.09:059][641]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.05.22-12.11.09:059][641]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.05.22-12.11.09:060][641]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.05.22-12.11.09:075][641]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.05.22-12.11.09:076][641]LogHMD: Freeing OpenVRDLLHandle.
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.05.22-12.11.09:076][641]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.05.22-12.11.09:077][641]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.05.22-12.11.09:077][641]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.05.22-12.11.09:090][641]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.05.22-12.11.09:090][641]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.05.22-12.11.09:090][641]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE3CF61C-4E40-EB2D-EB42-E0995F0DC88C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=52f53f27423e80458c99d2b2e4c63d25%7C71c1cd29eef44117b80092eb2f33e9ba%7C46f0f65d-8ca7-4eec-9e88-b07c6c1304e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.05.22-12.11.09:096][641]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.05.22-12.11.09:097][641]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.05.22-12.11.09:099][641]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.05.22-12.11.09:100][641]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.05.22-12.11.09:100][641]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.05.22-12.11.09:100][641]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.05.22-12.11.09:100][641]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.05.22-12.11.09:101][641]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.05.22-12.11.09:104][641]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.05.22-12.11.09:106][641]LogD3D11RHI: Shutdown
+[2020.05.22-12.11.09:106][641]LogD3D11RHI: CleanupD3DDevice
+[2020.05.22-12.11.09:122][641]LogExit: Exiting.
+[2020.05.22-12.11.09:148][641]Log file closed, 05/22/20 14:11:09
