@@ -11,6 +11,8 @@ public class GrapplingHook : MonoBehaviour
     public LayerMask mask;
     public LineRenderer line;
     Vector3 mousePos;
+    public GameObject cursor;
+
     void Start()
     {
         gameObject.GetComponent<LineRenderer>();
@@ -23,20 +25,20 @@ public class GrapplingHook : MonoBehaviour
         // Detect mouse position
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
-
+        cursor.transform.position = mousePos;
 
         // Shot rope on mouse position
         if (Input.GetMouseButtonDown(0))
         {
-            hit = Physics2D.Raycast(transform.position, mousePos, distance, mask);
-            Debug.DrawLine(transform.position, hit.point, Color.cyan);
+            Vector3 hookDirection = mousePos - transform.position;
+            hit = Physics2D.Raycast(transform.position, hookDirection, distance, mask);
+            Debug.DrawLine(transform.position, hookDirection, Color.cyan);
             if(hit == true && checker == true)
             {
                 rope = gameObject.GetComponent<DistanceJoint2D>();
                 rope.connectedAnchor = hit.point;
                 checker = false;
             }
-
         }
 
         // Destroy rope
