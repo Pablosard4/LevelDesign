@@ -10,6 +10,7 @@ namespace Gamekit2D
     [RequireComponent(typeof(Animator))]
     public class PlayerCharacter : MonoBehaviour
     {
+
         static protected PlayerCharacter s_PlayerInstance;
         static public PlayerCharacter PlayerInstance { get { return s_PlayerInstance; } }
 
@@ -25,6 +26,7 @@ namespace Gamekit2D
         public Transform facingRightBulletSpawnPoint;
         public BulletPool bulletPool;
         public Transform cameraFollowTarget;
+
 
         public float maxSpeed = 10f;
         public float groundAcceleration = 100f;
@@ -165,6 +167,7 @@ namespace Gamekit2D
             {
                 m_CurrentPushables.Add(pushable);
             }
+
         }
 
         void OnTriggerExit2D(Collider2D other)
@@ -179,6 +182,7 @@ namespace Gamekit2D
 
         void Update()
         {
+   
             if (PlayerInput.Instance.Pause.Down)
             {
                 if (!m_InPause)
@@ -197,6 +201,8 @@ namespace Gamekit2D
                     Unpause();
                 }
             }
+
+
         }
 
         void FixedUpdate()

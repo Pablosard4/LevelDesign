@@ -7,6 +7,7 @@ namespace Gamekit2D
     [RequireComponent(typeof(Collider2D))]
     public class CharacterController2D : MonoBehaviour
     {
+
         [Tooltip("The Layers which represent gameobjects that the Character Controller can be grounded on.")]
         public LayerMask groundedLayerMask;
         [Tooltip("The distance down to check for ground.")]
@@ -33,17 +34,17 @@ namespace Gamekit2D
 
         void Awake()
         {
-            m_Rigidbody2D = GetComponent<Rigidbody2D>();
-            m_Capsule = GetComponent<CapsuleCollider2D>();
+                m_Rigidbody2D = GetComponent<Rigidbody2D>();
+                m_Capsule = GetComponent<CapsuleCollider2D>();
 
-            m_CurrentPosition = m_Rigidbody2D.position;
-            m_PreviousPosition = m_Rigidbody2D.position;
+                m_CurrentPosition = m_Rigidbody2D.position;
+                m_PreviousPosition = m_Rigidbody2D.position;
 
-            m_ContactFilter.layerMask = groundedLayerMask;
-            m_ContactFilter.useLayerMask = true;
-            m_ContactFilter.useTriggers = false;
+                m_ContactFilter.layerMask = groundedLayerMask;
+                m_ContactFilter.useLayerMask = true;
+                m_ContactFilter.useTriggers = false;
 
-            Physics2D.queriesStartInColliders = false;
+                Physics2D.queriesStartInColliders = false;
         }
 
         void FixedUpdate()
@@ -221,5 +222,6 @@ namespace Gamekit2D
                 m_HitBuffer[i] = new RaycastHit2D();
             }
         }
+
     }
 }
